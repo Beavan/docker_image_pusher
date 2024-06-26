@@ -1,6 +1,9 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
+# 支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+# 支持私库
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+
+# 镜像名(1行1个)
+nginx
+mysql:8.0
+python:3.12
