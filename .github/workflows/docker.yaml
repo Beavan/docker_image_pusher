@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
+  # 定时执行  
+  schedule: 
+    - corn: '00 10 * * *'
 
 
 env:
