@@ -7,4 +7,3 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 nginx
 mysql:8.0
 python:3.12
-lscr.io/linuxserver/calibre-web
